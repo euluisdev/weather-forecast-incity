@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://source.unsplash.com/1600x900/);
+}
+
+.container {
+    background: black;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.txt-text {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 70px);
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+}
+
+.img-search {
+    width: 20px;
+}
+
+.container-two {
+    margin-top: 30px;
+}
+
+.txt-time {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.temp {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.container-tree {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.txt-temp {
+    color: #ffffff;
+    margin-left: 20px;
+    text-transform: capitalize; /* first letter of the text in capital.. */
+}
+
+.container-four {
+    display: flex;
+}
+
+.moisture {
+    margin-left: 10px;
+    color: #ffffff;
+    margin-top: 20px;
+    display: flex;
+}
+
+.temp-max {
+    margin-left: 50px;
+    color: #ffffff;
+    margin-top: 20px;
+    display: flex;
+}
+
+.temp-min {
+    margin-left: 50px;
+    color: #ffffff;
+    margin-top: 20px;
+    display: flex;
+}
+
+.footer {
+    position: absolute;
+    font-size: 20px;
+    bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #080202ad;
+}

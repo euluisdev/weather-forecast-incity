@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:wght@300;500;700&family=Titillium+Web&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/dist/js/index.js" defer></script>
+    
+    <title>Weather Forecast</title>
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" class="txt-text" id="txtText" placeholder="Digite a cidade...">
+        <button class="btn" id="Btn">
+            <img src="https://www.svgrepo.com/show/488200/find.svg" class="img-search" alt="buscar">
+        </button>
+        <div class="container-two">
+            <h1 class="txt-time" id="txtTime">Tempo em Olinda - Br</h1>
+            <p class="temp" id="temp">51°C</p>
+
+            <div class="container-tree">
+                <img src="https://openweathermap.org/img/wn/04n.png" class="img-cloud" id="imgCloud" alt="icone-tempo">
+                <p class="txt-temp" id="txtTemp">Nublado</p>
+            </div>
+            <div class="container-four">
+                <p class="moisture" id="moisture">Umidade: 79%</p>
+                <p class="temp-max" id="tempMax">Max: 99°C</p>
+                <p class="temp-min" id="tempMin">Min: 11°C</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <footer><br>&copy;<a href="https://github.com/euluisdev">euluis-dev</a></footer>
+    </div>
+</body>
+
+</html>
