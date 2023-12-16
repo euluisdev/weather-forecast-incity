@@ -75,7 +75,6 @@ const btnButton = (): void => {
     }
 };
 
-// click button
 if (Btn) {
     Btn.addEventListener("click", btnButton);
 };
