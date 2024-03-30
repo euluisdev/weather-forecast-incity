@@ -32,4 +32,4 @@ Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](L
 
 ---
 
-Desenvolvido por [euluis-dev](https://github.com/euluis-dev).
+Desenvolvido por [euluis-dev](https://github.com/euluisdev).
